@@ -1,0 +1,254 @@
+/*Bendrosios taisyklės*/
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+nav ul {
+    list-style: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+img {
+    border-style: none;
+}
+
+body {
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    font-size: 15pt;
+    margin: 0;
+    line-height: 1, 5;
+}
+
+header {
+    background-image:url(../images/Virselis3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/*Taisyklės Header dalyje esantiems  užrašams, nuorodai "Visit us Today", logo, ikonai "Žvaigždė" ir klasei "container" Header dalyje  */
+
+
+
+
+.container2 {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding-top: 80px;
+    padding-bottom: 40px
+}
+	
+
+
+.logo {
+    width: 150px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+
+
+/* Taisyklės viso puslapio klasėje "container" esantiems elementams Header dalyje ikonai "Žvaigždė", h1, nuorodai a "Visit us Today", main dalyje esantiems article elemntams - img, tekstui*/
+
+.container {
+
+    max-width: 800px;
+    margin: 0 auto;
+    color: #2C1320;
+}
+
+/* Taiyklės žvaigždei*/
+.container i {
+    font-size: 3.5em;
+    color: #5F4B66;
+    padding-bottom: 0px;
+}
+
+/*Taisyklės h1 pavadinimui Header dalyje   */
+h1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #2C1320;
+    font-size: 3em;
+}
+
+/*Taisyklės visoms nuorodoms Header ie Main dalyje*/
+.container a {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 4px;
+    border-radius: 10px;
+    color: #8797AF;
+    background-color: #5F4B66;
+    font-size: 0.8em;
+    width: 140px;
+	
+	
+}
+
+.btn {
+  display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 4px;
+    border-radius: 10px;
+    color: #8797AF;
+    background-color: #5F4B66;
+    font-size: 0.8em;
+    width: 160px;  
+}
+
+/* Taisyklės navigacijos daliai - ikonų sąrašui li, nuorodų sąrašui a "Loren", klasės read nuorodų sąrašui a "Read more..."   */
+nav {
+    background-color: #5F4B66;
+    padding: 30px;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 25px;
+    width: 200px;
+    padding: 10px;
+}
+
+nav a {
+    color: #8797AF;
+    width: 50px;
+}
+
+.read a {
+    color: #2C1320;
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.box {
+    margin-bottom: 20px;
+    padding: 30px 5px;
+    text-align: center;
+  
+}
+
+hr {
+    max-width: 800px;
+    border-color: #999999;
+}
+/* Taisyklės main dalyje per vidurį esančiai section article klasei "container5", tai yra fonas klasei "container5"  */
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/ziedlapiai.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0px;
+}
+
+
+
+/*Taisyklės vidurinei daliai section - img ir tekstui   */
+.container5 {
+	 max-width: 800px;
+    margin: 0 auto;
+    background-color:rgba(255, 255, 255, 0.8);
+  
+}
+
+.text {
+	
+	padding: 30px;
+}
+
+
+.container6 {
+    background-color:
+        rgba(255, 255, 255, 0.8);
+    max-width: 100%;
+    margin: 0 auto;
+    color: #2C1320;
+	
+}
+/*Taisyklės Main dalyje esančiam tekstui visose article dalyse  */
+article {
+    color: #2C1320;
+    text-align: justify;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Taisyklės Main dalyje esančioms nuotraukoms */
+img {
+    text-align: center;
+    width: 100%;
+    border-radius: 2%;
+    padding: 2px;
+}
+
+/* Taisyklės main nuorodai a "Read more"   */
+main a {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 4px;
+    border-radius: 10px;
+    color: #8797AF;
+    background-color: #5F4B66;
+    font-size: 0.8em;
+    width: 120px;
+}
+
+/*Taisyklės apatinei daliai  */
+footer {
+    width: 100%;
+    padding: 5px;
+    background-color: #8797AF;
+    color: #2C1320;
+}
+
+footer p {
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+
+footer li {
+    display: inline-block;
+    width: 500px;
+
+}
+
+footer a {
+    color: #2C1320;
+    font-weight: bold;
+}
+
+/*Taisyklės autorystei  */
+.Loreta p {
+    text-align: center;
+    font-size: 18px;
+    margin-right: 60px;
+
+
+}
+
