@@ -74,7 +74,7 @@
 		<section class="main">
 		
 				<div class="container5">
-                                    <article class="container">
+                                    <div class="container">
 					<figure>
 						<img src="images/2016-11-11_173640.gif" alt="Evelina">
 					</figure>
@@ -83,7 +83,7 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus nesciunt enim fugiat harum, itaque alias, totam provident nisi temporibus illo atque! Architecto nobis, iusto pariatur, laboriosam temporibus.</p>
 						<a href="blog.php" class="btn btn-default btn-lg">Read more</a>
 					</div>
-				</article>
+				</div>
                                 </div>
 		</section>
 	
